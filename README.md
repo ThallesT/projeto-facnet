@@ -13,38 +13,29 @@ crie uma pasta em seu computador.
 abra o git e procure a pasta
 ```
 cd <diretorio>
-
 ```
 depois clone o projeto
 
 ```
-
 git clone <url do projeto>
-
 ```
 
 então crie sua branch para fazer suas alterações no seguinte padrão
 
 ```
-
 git checkout -b <branchSeuNomeIssue>
-
 ```
 
 vá comitando a cada passo
 ```
-
 git add .
 git commit -m "<comentario sobre o que você desenvolveu>"
-
 ```
 
 e então envie para ser aprovado no projeto:
 
 ```
-
 git push origin <branchSeuNomeIssue>
-
 ```
 
 Qualquer duvida, entre em contato.

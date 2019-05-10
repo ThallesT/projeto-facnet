@@ -43,6 +43,8 @@ git commit -m "<comentario sobre o que você desenvolveu>"
 git push origin <branchSeuNomeIssue>
 ```
 
+8.faça um pull request
+
 Qualquer duvida, entre em contato.
 
 

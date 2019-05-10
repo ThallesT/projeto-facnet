@@ -10,6 +10,8 @@ Compartilhar conhecimento, boas praticas e programação tudo isso na prática d
 
 1.faça download do Git: https://git-scm.com e instale.
 
+1.2. Clique em 'fork' no canto superior direito da pagina.
+
 2.crie uma pasta em seu computador.
 
 3.abra o git e procure a pasta:

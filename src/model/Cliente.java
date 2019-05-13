@@ -2,7 +2,7 @@ package model;
 
 public class Cliente {
 
-    private Long idCliente;
+    private int idCliente;
     private String nome;
     private String endereço;
     private String cep;
@@ -10,11 +10,11 @@ public class Cliente {
     private String telefone;
     private String celular;
 
-    public Long getIdCliente() {
+    public int getIdCliente() {
         return idCliente;
     }
 
-    public void setIdCliente(Long idCliente) {
+    public void setIdCliente(int idCliente) {
         this.idCliente = idCliente;
     }
 

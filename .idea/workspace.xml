@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8fdf5b8-a1e0-4e30-8119-c677f5ecf37a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sequence/sequence.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/enums/ArquivoEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/MascaraServico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/Servico.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projeto-facnet/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/projeto-facnet/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Cliente.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -145,8 +138,8 @@
         <option value="$PROJECT_DIR$/src/model/enums/ArquivoEnum.java" />
         <option value="$PROJECT_DIR$/sequence/sequence.olokinhomeu" />
         <option value="$PROJECT_DIR$/src/model/Cliente.java" />
-        <option value="$PROJECT_DIR$/sequence/sequence.txt" />
         <option value="$PROJECT_DIR$/src/service/Servico.java" />
+        <option value="$PROJECT_DIR$/sequence/sequence.txt" />
       </list>
     </option>
   </component>
@@ -249,18 +242,17 @@
       <workItem from="1557439184010" duration="59000" />
       <workItem from="1557449213100" duration="1356000" />
       <workItem from="1557535241653" duration="2302000" />
-      <workItem from="1557538750214" duration="19564000" />
+      <workItem from="1557538750214" duration="21102000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23281000" />
+    <option name="totallyTimeSpent" value="24819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="25" width="1313" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26124704" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26124704" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -269,7 +261,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39739415" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -277,7 +269,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32899022" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />

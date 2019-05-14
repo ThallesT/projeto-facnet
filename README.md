@@ -2,13 +2,11 @@
 
 Repositório do projeto de desenvolvimento das turmas de sistemas de informação da FACNET.
 
-# Objetivo
-
-Compartilhar conhecimento, boas praticas e programação tudo isso na prática desenvolvendo um software.
-
 # Instruções 
 
 1.faça download do Git: https://git-scm.com e instale.
+
+1.2. Clique em 'fork' no canto superior direito da pagina.
 
 2.crie uma pasta em seu computador.
 
@@ -40,6 +38,8 @@ git commit -m "<comentario sobre o que você desenvolveu>"
 ```
 git push origin <branchSeuNomeIssue>
 ```
+
+8.faça um pull request
 
 Qualquer duvida, entre em contato.
 

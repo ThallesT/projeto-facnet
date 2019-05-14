@@ -5,31 +5,20 @@ public class Main {
 
     public static void main(String[] args) {
 
+            //instanciando as classes de Cliente e de Servico
             Cliente cliente = new Cliente();
             Servico servico = new Servico();
 
+
+/*  para teste de gravação do cliente no nosso banco de dados
+
             cliente.setNome("teste");
             cliente.setEndereço("testeEndereço");
-            cliente.setCep("72015035");
-            cliente.setCpf("05840551222");
+            cliente.setCep("72123456");
+            cliente.setCpf("12345678900");
             cliente.setTelefone("6156362554");
-            cliente.setCelular("61984483883");
-            cliente = servico.armazenaCliente(cliente);
-
-
-            Cliente cliente1 = servico.leCliente(cliente.getIdCliente());
-
-            System.out.println(cliente1.getIdCliente());
-            System.out.println(cliente1.getNome());
-            System.out.println(cliente1.getEndereço());
-            System.out.println(cliente1.getCep());
-            System.out.println(cliente1.getCpf());
-            System.out.println(cliente1.getTelefone());
-            System.out.println(cliente1.getCelular());
-
-
-
-
+            cliente.setCelular("6182998807");
+            cliente = servico.armazenaCliente(cliente);*/
 
 
     }

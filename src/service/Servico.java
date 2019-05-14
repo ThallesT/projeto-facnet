@@ -1,24 +1,27 @@
 package service;
 
 import model.Cliente;
-import model.enums.ArquivoEnum;
 
 import java.io.*;
-import java.util.Random;
 
 public class Servico {
 
     private MascaraServico mascaraServico = new MascaraServico();
 
+    /**
+     * busca o arquivo do cliente pelo id e retorna um objeto Cliente com as informações acessadas no banco de dados
+     *
+     *
+     * @param idCliente
+     * @return
+     */
 
-    public Cliente leCliente(int idCliente){
+    public Cliente buscaCliente(int idCliente){
 
         Cliente cliente = new Cliente();
 
         try{
-            FileInputStream fileInputStream = new FileInputStream("Data/"+idCliente+".txt");
-            InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream);
-            BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+            BufferedReader bufferedReader = abreArquivo("data/"+idCliente+".txt");
 
             cliente.setIdCliente(idCliente);
             cliente.setNome(bufferedReader.readLine());
@@ -35,12 +38,17 @@ public class Servico {
         return cliente;
     }
 
+    /**
+     * Armazena o cliente no banco de dados que estamos estruturando
+     *
+     * @param cliente
+     * @return
+     */
+
     public Cliente armazenaCliente(Cliente cliente){
         try{
             int idCliente = getSequence();
-            FileOutputStream fileOutputStream = new FileOutputStream("Data/"+idCliente+".txt");
-            OutputStreamWriter outputStreamWriter = new OutputStreamWriter(fileOutputStream);
-            BufferedWriter bufferedWriter = new BufferedWriter(outputStreamWriter);
+            BufferedWriter bufferedWriter = gravaArquivo("data/"+idCliente+".txt");
 
             cliente.setIdCliente(idCliente);
             bufferedWriter.write(cliente.getNome()+"\n");
@@ -59,17 +67,11 @@ public class Servico {
         return cliente;
     }
 
-    public Long geraId(){
-        File file = null;
-        Long id = null;
-        do{
-            Random random = new Random();
-            id = random.nextLong();
-            file = new File( id+".txt");
-        }while(file.exists());
-        return id;
-    }
-
+    /**
+     * Incrementa a sequence e retorna o valor atual;
+     *
+     * @return
+     */
 
     public int getSequence(){
 
@@ -99,6 +101,32 @@ public class Servico {
 
     }
 
+    /**
+     * Abre o arquivo especificado, e retorna um objeto de leitura;
+     *
+     * @param diretorio
+     * @return
+     * @throws Exception
+     */
+    public BufferedReader abreArquivo(String diretorio) throws Exception{
+        FileInputStream fileInputStream = new FileInputStream(diretorio);
+        InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream);
+        BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+        return bufferedReader;
+    }
+
+    /**
+     * retorna um objeto de gravação, que vai gravar o arquivo no diretorio especificado
+     * @param diretorio
+     * @return
+     * @throws Exception
+     */
+    public BufferedWriter gravaArquivo(String diretorio) throws Exception{
+        FileOutputStream fileOutputStream = new FileOutputStream(diretorio);
+        OutputStreamWriter outputStreamReader = new OutputStreamWriter(fileOutputStream);
+        BufferedWriter bufferedWriter = new BufferedWriter(outputStreamReader);
+        return bufferedWriter;
+    }
 
 
 

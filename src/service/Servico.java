@@ -76,17 +76,13 @@ public class Servico {
     public int getSequence(){
 
         try{
-            FileInputStream fileInputStream = new FileInputStream("sequence/sequence.txt");
-            InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream);
-            BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+            BufferedReader bufferedReader = abreArquivo("sequence/sequence.txt");
             String str = bufferedReader.readLine();
             int idCliente = Integer.parseInt(str);
             idCliente += 1;
             bufferedReader.close();
 
-            FileOutputStream fileOutputStream = new FileOutputStream("sequence/sequence.txt");
-            OutputStreamWriter outputStreamWriter = new OutputStreamWriter(fileOutputStream);
-            BufferedWriter bufferedWriter = new BufferedWriter(outputStreamWriter);
+            BufferedWriter bufferedWriter = gravaArquivo("sequence/sequence.txt");
             bufferedWriter.write(""+idCliente);
             bufferedWriter.flush();
             bufferedWriter.close();
@@ -117,6 +113,7 @@ public class Servico {
 
     /**
      * retorna um objeto de gravação, que vai gravar o arquivo no diretorio especificado
+     *
      * @param diretorio
      * @return
      * @throws Exception

@@ -10,7 +10,7 @@ Repositório do projeto de desenvolvimento das turmas de sistemas de informaçã
 
 2.crie uma pasta em seu computador.
 
-3.abra o git e procure a pasta:
+3.abra a pasta clique com o botão direito e clique em "git bash here" ou abra o git e procure a pasta:
 
 ```
 cd <diretorio>

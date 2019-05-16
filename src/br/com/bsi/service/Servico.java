@@ -1,6 +1,7 @@
-package service;
+package br.com.bsi.service;
 
-import model.Cliente;
+
+import br.com.bsi.model.Cliente;
 
 import java.io.*;
 

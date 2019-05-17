@@ -1,6 +1,6 @@
-package service;
+package br.com.bsi.service;
 
-import model.Cliente;
+import br.com.bsi.model.Cliente;
 
 import java.io.*;
 
@@ -25,7 +25,7 @@ public class Servico {
 
             cliente.setIdCliente(idCliente);
             cliente.setNome(bufferedReader.readLine());
-            cliente.setEndereço(bufferedReader.readLine());
+            cliente.setEndereco(bufferedReader.readLine());
             cliente.setCep(bufferedReader.readLine());
             cliente.setCpf(bufferedReader.readLine());
             cliente.setTelefone(bufferedReader.readLine());
@@ -52,7 +52,7 @@ public class Servico {
 
             cliente.setIdCliente(idCliente);
             bufferedWriter.write(cliente.getNome()+"\n");
-            bufferedWriter.write(cliente.getEndereço()+"\n");
+            bufferedWriter.write(cliente.getEndereco()+"\n");
             bufferedWriter.write(mascaraServico.mascaraDeCep(cliente.getCep()+"\n"));
             bufferedWriter.write(mascaraServico.mascaraDeCpf(cliente.getCpf()+"\n"));
             bufferedWriter.write(mascaraServico.mascaraDeTelefone(cliente.getTelefone())+"\n");

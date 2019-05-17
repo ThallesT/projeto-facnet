@@ -1,5 +1,5 @@
-import model.Cliente;
-import service.Servico;
+import br.com.bsi.model.Cliente;
+import br.com.bsi.service.Servico;
 
 public class Main {
 

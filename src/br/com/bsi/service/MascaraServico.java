@@ -1,4 +1,4 @@
-package service;
+package br.com.bsi.service;
 
 public class MascaraServico {
 

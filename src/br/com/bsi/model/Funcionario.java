@@ -1,3 +1,4 @@
+package br.com.bsi.model;
 
 public class Funcionario {
 	

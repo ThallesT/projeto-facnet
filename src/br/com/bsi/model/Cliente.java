@@ -1,4 +1,4 @@
-package model;
+package br.com.bsi.model;
 
 public class Cliente {
 

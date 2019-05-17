@@ -4,7 +4,7 @@ public class Cliente {
 
     private int idCliente;
     private String nome;
-    private String endereço;
+    private String endereco;
     private String cep;
     private String cpf;
     private String telefone;
@@ -21,11 +21,11 @@ public class Cliente {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public String getEndereço() {
-		return endereço;
+	public String getEndereco() {
+		return endereco;
 	}
-	public void setEndereço(String endereço) {
-		this.endereço = endereço;
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
 	}
 	public String getCep() {
 		return cep;

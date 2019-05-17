@@ -1,11 +1,13 @@
+
+package br.com.bsi;
+
 import br.com.bsi.model.Cliente;
 import br.com.bsi.service.Servico;
 
 public class Main {
 
     public static void main(String[] args) {
-
-            //instanciando as classes de Cliente e de Servico
+	    //instanciando as classes de Cliente e de Servico
             Cliente cliente = new Cliente();
             Servico servico = new Servico();
 
@@ -21,5 +23,7 @@ public class Main {
             cliente = servico.armazenaCliente(cliente);*/
 
 
+        System.out.println("Rodando a main");
     }
+
 }

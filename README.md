@@ -10,7 +10,7 @@ Repositório do projeto de desenvolvimento das turmas de sistemas de informaçã
 
 2.crie uma pasta em seu computador.
 
-3.abra o git e procure a pasta:
+3.abra a pasta clique com o botão direito e clique em "git bash here" ou abra o git e procure a pasta:
 
 ```
 cd <diretorio>
@@ -33,13 +33,16 @@ git add .
 git commit -m "<comentario sobre o que você desenvolveu>"
 ```
 
-7.e então envie para ser aprovado no projeto:
+7.e então envie:
 
 ```
 git push origin <branchSeuNomeIssue>
 ```
 
-8.faça um pull request
+8.mescle sua branch de desenvolvimento e sua branch master no github;
+
+9. faça um pull request para o repositório principal do projeto.
+
 
 Qualquer duvida, entre em contato.
 
